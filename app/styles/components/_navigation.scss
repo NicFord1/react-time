@@ -1,0 +1,30 @@
+.top-bar, .top-bar ul {
+  background-color: $nav-background;
+}
+
+.top-bar {
+  .menu-text {
+    color: $nav-text-color;
+  }
+
+  .menu a:link {
+    color: $nav-link-color;
+  }
+
+  .menu a:visited {
+    color: $nav-visited-link-color;
+  }
+
+  .menu a:hover {
+    color: $nav-hover-link-color;
+  }
+
+  .menu a:active {
+    color: $nav-active-link-color;
+  }
+
+  .menu > .menu-text > a {
+    display: inline;
+    padding: 0;
+  }
+}
