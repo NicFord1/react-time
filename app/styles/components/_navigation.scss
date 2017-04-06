@@ -19,12 +19,13 @@
     color: $nav-hover-link-color;
   }
 
-  .menu a:active {
-    color: $nav-active-link-color;
-  }
-
   .menu > .menu-text > a {
     display: inline;
     padding: 0;
+  }
+
+  .active-link {
+    color: $nav-active-link-color;
+    font-weight: bold;
   }
 }
